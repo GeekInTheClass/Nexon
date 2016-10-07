@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABEA10681DA721520059E9A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA10671DA721520059E9A1 /* AppDelegate.swift */; };
+		ABEA106A1DA721520059E9A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA10691DA721520059E9A1 /* ViewController.swift */; };
+		ABEA106D1DA721520059E9A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEA106B1DA721520059E9A1 /* Main.storyboard */; };
+		ABEA106F1DA721520059E9A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABEA106E1DA721520059E9A1 /* Assets.xcassets */; };
+		ABEA10721DA721520059E9A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEA10701DA721520059E9A1 /* LaunchScreen.storyboard */; };
+		ABEA107D1DA721520059E9A1 /* NexonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA107C1DA721520059E9A1 /* NexonTests.swift */; };
+		ABEA108A1DA726B50059E9A1 /* NexonListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA10891DA726B50059E9A1 /* NexonListTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABEA10791DA721520059E9A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABEA105C1DA721520059E9A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABEA10631DA721520059E9A1;
+			remoteInfo = Nexon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABEA10641DA721520059E9A1 /* Nexon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nexon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEA10671DA721520059E9A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABEA10691DA721520059E9A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABEA106C1DA721520059E9A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABEA106E1DA721520059E9A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABEA10711DA721520059E9A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABEA10731DA721520059E9A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABEA10781DA721520059E9A1 /* NexonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NexonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEA107C1DA721520059E9A1 /* NexonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NexonTests.swift; sourceTree = "<group>"; };
+		ABEA107E1DA721520059E9A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABEA10891DA726B50059E9A1 /* NexonListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NexonListTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABEA10611DA721520059E9A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEA10751DA721520059E9A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABEA105B1DA721510059E9A1 = {
+			isa = PBXGroup;
+			children = (
+				ABEA10891DA726B50059E9A1 /* NexonListTableViewController.swift */,
+				ABEA10661DA721520059E9A1 /* Nexon */,
+				ABEA107B1DA721520059E9A1 /* NexonTests */,
+				ABEA10651DA721520059E9A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABEA10651DA721520059E9A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABEA10641DA721520059E9A1 /* Nexon.app */,
+				ABEA10781DA721520059E9A1 /* NexonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABEA10661DA721520059E9A1 /* Nexon */ = {
+			isa = PBXGroup;
+			children = (
+				ABEA10671DA721520059E9A1 /* AppDelegate.swift */,
+				ABEA10691DA721520059E9A1 /* ViewController.swift */,
+				ABEA106B1DA721520059E9A1 /* Main.storyboard */,
+				ABEA106E1DA721520059E9A1 /* Assets.xcassets */,
+				ABEA10701DA721520059E9A1 /* LaunchScreen.storyboard */,
+				ABEA10731DA721520059E9A1 /* Info.plist */,
+			);
+			path = Nexon;
+			sourceTree = "<group>";
+		};
+		ABEA107B1DA721520059E9A1 /* NexonTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABEA107C1DA721520059E9A1 /* NexonTests.swift */,
+				ABEA107E1DA721520059E9A1 /* Info.plist */,
+			);
+			path = NexonTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABEA10631DA721520059E9A1 /* Nexon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEA10811DA721520059E9A1 /* Build configuration list for PBXNativeTarget "Nexon" */;
+			buildPhases = (
+				ABEA10601DA721520059E9A1 /* Sources */,
+				ABEA10611DA721520059E9A1 /* Frameworks */,
+				ABEA10621DA721520059E9A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nexon;
+			productName = Nexon;
+			productReference = ABEA10641DA721520059E9A1 /* Nexon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABEA10771DA721520059E9A1 /* NexonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEA10841DA721520059E9A1 /* Build configuration list for PBXNativeTarget "NexonTests" */;
+			buildPhases = (
+				ABEA10741DA721520059E9A1 /* Sources */,
+				ABEA10751DA721520059E9A1 /* Frameworks */,
+				ABEA10761DA721520059E9A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABEA107A1DA721520059E9A1 /* PBXTargetDependency */,
+			);
+			name = NexonTests;
+			productName = NexonTests;
+			productReference = ABEA10781DA721520059E9A1 /* NexonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABEA105C1DA721520059E9A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mac20;
+				TargetAttributes = {
+					ABEA10631DA721520059E9A1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					ABEA10771DA721520059E9A1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ABEA10631DA721520059E9A1;
+					};
+				};
+			};
+			buildConfigurationList = ABEA105F1DA721520059E9A1 /* Build configuration list for PBXProject "Nexon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABEA105B1DA721510059E9A1;
+			productRefGroup = ABEA10651DA721520059E9A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABEA10631DA721520059E9A1 /* Nexon */,
+				ABEA10771DA721520059E9A1 /* NexonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABEA10621DA721520059E9A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEA10721DA721520059E9A1 /* LaunchScreen.storyboard in Resources */,
+				ABEA106F1DA721520059E9A1 /* Assets.xcassets in Resources */,
+				ABEA106D1DA721520059E9A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEA10761DA721520059E9A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABEA10601DA721520059E9A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEA106A1DA721520059E9A1 /* ViewController.swift in Sources */,
+				ABEA108A1DA726B50059E9A1 /* NexonListTableViewController.swift in Sources */,
+				ABEA10681DA721520059E9A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEA10741DA721520059E9A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEA107D1DA721520059E9A1 /* NexonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABEA107A1DA721520059E9A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABEA10631DA721520059E9A1 /* Nexon */;
+			targetProxy = ABEA10791DA721520059E9A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABEA106B1DA721520059E9A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABEA106C1DA721520059E9A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABEA10701DA721520059E9A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABEA10711DA721520059E9A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABEA107F1DA721520059E9A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABEA10801DA721520059E9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABEA10821DA721520059E9A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nexon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = e.Nexon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABEA10831DA721520059E9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nexon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = e.Nexon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABEA10851DA721520059E9A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NexonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = e.NexonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nexon.app/Nexon";
+			};
+			name = Debug;
+		};
+		ABEA10861DA721520059E9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NexonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = e.NexonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nexon.app/Nexon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABEA105F1DA721520059E9A1 /* Build configuration list for PBXProject "Nexon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEA107F1DA721520059E9A1 /* Debug */,
+				ABEA10801DA721520059E9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEA10811DA721520059E9A1 /* Build configuration list for PBXNativeTarget "Nexon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEA10821DA721520059E9A1 /* Debug */,
+				ABEA10831DA721520059E9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABEA10841DA721520059E9A1 /* Build configuration list for PBXNativeTarget "NexonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEA10851DA721520059E9A1 /* Debug */,
+				ABEA10861DA721520059E9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABEA105C1DA721520059E9A1 /* Project object */;
+}
