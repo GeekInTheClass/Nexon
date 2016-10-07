@@ -10,8 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var label: UILabel!
+    var FirstString = String()
     override func viewDidLoad() {
         super.viewDidLoad()
+          label.text = FirstString
         // Do any additional setup after loading the view, typically from a nib.
     }
 
