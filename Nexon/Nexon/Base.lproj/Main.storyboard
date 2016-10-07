@@ -37,6 +37,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="JhA-cs-94f" kind="show" id="tgz-oG-OC6"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
@@ -48,7 +51,36 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sFE-ih-SSZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1172" y="412"/>
+            <point key="canvasLocation" x="535" y="360"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="txw-MG-OhT">
+            <objects>
+                <viewController id="JhA-cs-94f" customClass="ViewController" customModule="Nexon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mg7-3i-ghs"/>
+                        <viewControllerLayoutGuide type="bottom" id="uS3-Pz-keC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xSh-j3-8uP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aU-sA-mvR">
+                                <rect key="frame" x="83" y="61" width="104" height="69"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="6aU-sA-mvR" id="oYp-Pr-iQA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6dW-Rg-q9k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1218" y="360"/>
         </scene>
     </scenes>
 </document>
